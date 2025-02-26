@@ -1,3 +1,18 @@
-pre {
-    margin-left: 50px;
+img {
+    max-width: 100%;
 }
+section {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+nav ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+}
+nav ul li {
+}
+/* nav {
+    display: flex;
+    justify-content: end;
+} */
