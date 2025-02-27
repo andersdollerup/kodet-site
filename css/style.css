@@ -2,33 +2,51 @@ img {
     width: 100%;
     height: auto;
     display: block;
+    /* https://stackoverflow.com/questions/5804256/image-inside-div-has-extra-space-below-the-image
+    vertical-align: middle; */
 }
-section {
+
+body {
+    max-width: 1900px;
+    margin: 0 auto;
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+    img {
+        /* width: 400px; */
+        flex-basis: 400px;
+        flex-grow: 1;
+    }
+}
+
+/* section {
     max-width: 1280px;
     margin: 0 auto;
-}
+} */
 /* nav ul {
     display: flex;
     list-style-type: none;
     justify-content: space-around;
 } */
-h1 {
-}
+/* h1 {
+} */
 
-@media (width > 800px) {
+/* @media (width > 800px) {
     article {
         display: flex;
     }
     article p {
-        /* max-width: 40ch;
-        white-space: nowrap; */
+        max-width: 40ch;
+        white-space: nowrap;
     }
     .tekst-box {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
     }
-    /* img {
+    img {
         width: 10px;
-    } */
-}
+    }
+} */
