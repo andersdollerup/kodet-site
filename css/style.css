@@ -7,8 +7,28 @@ section {
     max-width: 1280px;
     margin: 0 auto;
 }
-nav ul {
+/* nav ul {
     display: flex;
     list-style-type: none;
     justify-content: space-around;
+} */
+h1 {
+}
+
+@media (width > 800px) {
+    article {
+        display: flex;
+    }
+    article p {
+        /* max-width: 40ch;
+        white-space: nowrap; */
+    }
+    .tekst-box {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    /* img {
+        width: 10px;
+    } */
 }
