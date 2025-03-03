@@ -13,17 +13,40 @@ body {
     display: flex;
 
     flex-wrap: wrap;
-
+    background-color: yellow;
     img {
         /* width: 400px; */
-        flex-basis: 400px;
-        flex-grow: 1;
-        aspect-ratio: 1/1;
+        /* flex-basis: 400px; */
+        /* flex-grow: 1; */
+        /* aspect-ratio: 1/1; */
         /* object-fit: cover; */
+        border: 10px solid black;
+
+        box-sizing: border-box;
     }
 }
+
+article {
+    padding: 40px;
+
+    h2 {
+        background-color: aliceblue;
+        padding: 20px;
+        border-radius: 2rem;
+        font-family: serif;
+        font-size: 2rem;
+        color: whitesmoke;
+        -webkit-text-stroke: 0.05rem;
+        -webkit-text-stroke-color: black;
+        letter-spacing: 0.2rem;
+        text-shadow: rgb(7, 7, 6) 10px 0 20px;
+    }
+    p {
+        font-size: 1.5rem;
+    }
+}
+
 html {
-    font-size: 80px;
 }
 body.med-grid {
     background-color: bisque;
